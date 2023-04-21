@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/homepage" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="16dp"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/logoupb" />
+    <TextView
+        android:text="@string/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginStart="110dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:text="@string/visi_misi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="22dp"
+        android:layout_marginStart="195dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:text="@string/program_studi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="22dp"
+        android:layout_marginStart="295dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:text="@string/tentang_kami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="22dp"
+        android:layout_marginStart="470dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/universitas_pelita_bangsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="75dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_bold"
+
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="125dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/enterpreneur_university"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="@string/universitas_pelita_bangsa_upb_merupakan_perguruan_tinggi_baru_hasil_perubahan_bentuk_dari_penggabungan_antara_sekolah_tinggi_ilmu_ekonomi_stie_dan_sekolah_tinggi_teknik_stt"
+        android:layout_width="590dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="180dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_regular"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="@string/universitas_pelita_bangsa_upb_telah_mendapatkan_akreditasi_perguruan_tinggi_dengan_peringkat"
+        android:layout_width="590dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="271dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_regular"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="@string/terakreditasi_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="290dp"
+        android:layout_marginStart="355dp"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="@string/fakultas_universitas_pelita_bangsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="350dp"
+        android:layout_marginStart="120dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/yellow"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="194dp"
+        android:layout_height="123dp"
+        android:src="@drawable/fakultasekonomi" />
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="131dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="280dp"
+        android:src="@drawable/fakultaspendidikan" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="128dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="500dp"
+        android:src="@drawable/fakultasagama" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="128dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="720dp"
+        android:src="@drawable/fakultasteknik" />
+
+    <TextView
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="460dp"
+        android:layout_marginStart="70dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="              FAKULTAS
+        EKONOMI DAN BISNIS"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="460dp"
+        android:layout_marginStart="280dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="              FAKULTAS ILMU PENDIDIKAN DAN HUMANIORA"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="460dp"
+        android:layout_marginStart="560dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="    FAKULTAS
+                    AGAMA ISLAM"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="485dp"
+        android:layout_marginStart="770dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="FAKULTAS TEKNIK"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

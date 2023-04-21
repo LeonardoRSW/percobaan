@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/prodipage"/>
+
+    <TextView
+        android:text="@string/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="110dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/visi_misi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="210dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/program_studi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="330dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/tentang_kami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="510dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="80dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="S1 TEKNIK INFORMATIKA "
+        android:textColor="@color/yellow"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="125dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="Program Studi S1 Teknik Informatika mempunyai konsep dasar, teori, dan perkembangan aplikasi tersendiri. Teknik Informatika ini mencakup beberapa macam bidang, termasuk di dalamnya: sistem informasi, ilmu komputer, ilmu informasi, teknik komputer dan aplikasi informasi dalam sistem informasi manajemen. "
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="400dp"
+        android:layout_marginVertical="230dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="Secara umum informatika mempelajari struktur, sifat, dan interaksi dari beberapa sistem yang dipakai untuk mengumpulkan data, memproses dan menyimpan hasil pemrosesan data, serta menampilkannya dalam bentuk informasi."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="310dp"
+        android:layout_marginStart="45dp"
+        android:fontFamily="@font/inter_black"
+        android:textColor="@color/yellow"
+        android:textSize="12sp"
+        android:text="Mata Kuliah" />
+
+    <TextView
+        android:text="Galeri S1 Teknik Informatika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="360dp"
+        android:layout_marginStart="120dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/yellow"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="194dp"
+        android:layout_height="123dp"
+        android:src="@drawable/fakultasekonomi" />
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="131dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="280dp"
+        android:src="@drawable/fakultaspendidikan" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="128dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="500dp"
+        android:src="@drawable/fakultasagama" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="128dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="720dp"
+        android:src="@drawable/fakultasteknik" />
+
+</RelativeLayout>

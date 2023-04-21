@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vismispage"/>
+
+    <TextView
+        android:text="@string/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="110dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/visi_misi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="210dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/program_studi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="330dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/tentang_kami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="510dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="90dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_medium"
+        android:textStyle="bold"
+        android:text="@string/visi_dan_misi_universitas_pelita_bangsa"
+        android:textColor="@color/yellow"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="650dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="130dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/visi_universitas_pelita_bangsa_adalah_menjadi_entrepreneur_berkelas_internasional_pada_tahun_2045"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="200dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/misi_universitas_pelita_bangsa_adalah"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="230dp"
+        android:layout_marginStart="80dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="Menyelenggarakan proses pendidikan dan pembelajaran yang berkualitas sehingga menghasilkan lulusan yang unggul, mandiri dan kompetitif."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="280dp"
+        android:layout_marginStart="80dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="Menyelenggarakan penelitian yang menghasilkan publikasi, Hak Atas Kekayaan Intelektual (HAKI), buku ajar, kebijakan dan teknologi yang berhasil guna dan berdaya guna dengan mengedepankan budaya dan sumber daya lokal."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="365dp"
+        android:layout_marginStart="80dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="Menyelenggarakan pengabdian kepada masyarakat untuk mensosialisasikan/ mengimplementasikan hasil-hasil penelitian yang berupa publikasi, Hak Atas Kekayaan Intelektual (HAKI), kebijakan dan teknologi yang berhasil guna dan berdaya guna dengan mengedepankan budaya dan sumber daya lokal."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="455dp"
+        android:layout_marginStart="80dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="Mengembangkan profesionalitas, kapabilitas dan akuntabilitas dalam tata kelola Universitas secara entrepreneurial."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="230dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="1."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="280dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="2."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="365dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="3."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="455dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="4."
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

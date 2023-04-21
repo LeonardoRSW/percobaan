@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_page"
+        />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#dab869"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="55dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins_black"
+        android:background="@color/tranparan"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/visi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visi &amp; Misi"
+        android:padding="5dp"
+        android:shadowColor="#ffffff10"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="8"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins_black"
+        android:background="@color/tranparan"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/program_studi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Studi"
+        android:textColor="#dab869"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins_black"
+        android:background="@color/tranparan"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/tentang_kami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Kami"
+        android:textColor="#dab869"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="500dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins_black"
+        android:background="@color/tranparan"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

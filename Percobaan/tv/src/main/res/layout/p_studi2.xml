@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/prodipage"/>
+
+        <TextView
+            android:text="@string/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:layout_marginStart="110dp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/yellow"
+            android:textSize="22sp" />
+
+        <TextView
+            android:text="@string/visi_misi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:layout_marginStart="210dp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/yellow"
+            android:textSize="22sp" />
+
+        <TextView
+            android:text="@string/program_studi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:layout_marginStart="320dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:text="@string/tentang_kami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:layout_marginStart="510dp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/yellow"
+            android:textSize="22sp" />
+
+        <TextView
+            android:text="PROGRAM STUDI UNIVERSITAS PELITA BANGSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="100dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/yellow"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="150dp"
+            android:layout_marginVertical="140dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/background1" />
+
+        <TextView
+            android:text="S1 PGPAUD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="240dp"
+            android:layout_marginStart="100dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="196dp"
+            android:layout_height="143dp"
+            android:layout_marginVertical="275dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/background1" />
+
+        <TextView
+            android:text="D3 Akutansi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="370dp"
+            android:layout_marginStart="95dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="150dp"
+            android:layout_marginVertical="140dp"
+            android:layout_marginStart="270dp"
+            android:src="@drawable/background1" />
+
+        <TextView
+            android:text="S1 Hukum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="240dp"
+            android:layout_marginStart="320dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="143dp"
+            android:layout_marginVertical="275dp"
+            android:layout_marginStart="270dp"
+            android:src="@drawable/s1_ekonomisyariah" />
+
+        <TextView
+            android:text="S1 Arsitektur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="370dp"
+            android:layout_marginStart="310dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="150dp"
+            android:layout_marginVertical="140dp"
+            android:layout_marginStart="490dp"
+            android:src="@drawable/background1" />
+
+        <TextView
+            android:text="S1 Ekonomi Syariah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="240dp"
+            android:layout_marginStart="500dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="143dp"
+            android:layout_marginVertical="275dp"
+            android:layout_marginStart="490dp"
+            android:src="@drawable/background1" />
+
+        <TextView
+            android:text="S1 Teknik Informatika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="370dp"
+            android:layout_marginStart="505dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="150dp"
+            android:layout_marginVertical="140dp"
+            android:layout_marginStart="705dp"
+            android:src="@drawable/background1" />
+
+        <TextView
+            android:text="S1 BKPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="240dp"
+            android:layout_marginStart="770dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="143dp"
+            android:layout_marginVertical="275dp"
+            android:layout_marginStart="705dp"
+            android:src="@drawable/s1_ekonomisyariah" />
+
+        <TextView
+            android:text="S1 Teknik Lingkungan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="370dp"
+            android:layout_marginStart="720dp"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+</RelativeLayout>

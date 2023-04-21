@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/prodipage"/>
+
+    <TextView
+        android:text="@string/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="110dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/visi_misi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="210dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/program_studi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="330dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="@string/tentang_kami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="510dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="FAKULTAS TEKNIK (FATEK)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="100dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_medium"
+        android:textColor="@color/yellow"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="Fakultas Teknik Universtitas Pelita Bangsa merupakan salah satu Fakultas dari 4 Fakultas yang dimiliki oleh Universitas Pelita Bangsa, Fakultas ini selalu mengupayakan untuk ikut dalam mentransformasikan pengetahuan di bidang rekayasa dan keteknikan sebagai bentuk implementasi dari Tri Dharma Perguruan Tinggi guna meningkatkan kesejahteraan Bangsa dan Negara."
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="150dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/inter_regular"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="Program Studi Fakultas Teknik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="350dp"
+        android:layout_marginStart="120dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/yellow"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="194dp"
+        android:layout_height="123dp"
+        android:src="@drawable/fakultasekonomi" />
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="131dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="280dp"
+        android:src="@drawable/fakultaspendidikan" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="128dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="500dp"
+        android:src="@drawable/fakultasagama" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="128dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="720dp"
+        android:src="@drawable/fakultasteknik" />
+
+</RelativeLayout>
